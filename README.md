@@ -7,6 +7,7 @@ Challenge #1
 
 A 3 tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
+>> Created a simple 3-tier Todo list app using MongoDB, and NodeJS (Express). To run the app simply download the docker-compose.yaml file and run the following command whilst in the same directoty (assuming docker is installed): "docker-compose -d up". Docker images were uploaded to the docker hub for easy distribution.
 
 Challenge #2
 
@@ -22,6 +23,7 @@ Hints
 ·       Azure Documentation
 ·       Google Documentation
 
+>>Can be viewed as jupyter notebook directly in the Challenge 2 folder. Cannot run online because I used a local file for the ssh access to my AWS EC2 instance, however the outputs are stored showing the development. 
 
 Challenge #3
 
@@ -40,3 +42,5 @@ value = a
 Hints
 We would like to see some tests. A quick read to help you along the way
 We would expect it in any other language apart from elixir.
+
+>>Can be viewed as jupyter notebook directly in the Challenge 3 folder and tested online.
