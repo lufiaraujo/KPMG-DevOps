@@ -6,7 +6,10 @@ We would expect no more than 30 minutes per challenge, if at the end of the time
 
 A 3 tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
-> Created a simple 3-tier Todo list app using MongoDB, and NodeJS (Express). To run the app simply download the docker-compose.yaml file and run the following command whilst in the same directoty (assuming docker is installed): "docker-compose -d up". Docker images were uploaded to the docker hub for easy distribution.
+> Created a simple 3-tier Todo list app using MongoDB, and NodeJS (Express). To run the app, simply download the docker-compose.yaml file and run the following command whilst in the same directoty (assuming docker is installed): "docker-compose -d up". Docker images were uploaded to the docker hub for easy distribution.
+> The front-end tier is accessible at http://localhost:3000/
+> API tier is accessible for CRUD opertions on port TCP 3001 for debugging/testing with Postman
+> Database tier (Mongodb) takes requests on TCP 27017 from the API, there is also a fourth container running mongo-express for GUI operations on the database, accessible via http://localhost:8081/
 
 ## Challenge #2
 
