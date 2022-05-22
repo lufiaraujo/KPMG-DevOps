@@ -10,7 +10,7 @@ A 3 tier environment is a common setup. Use a tool of your choosing/familiarity 
 
 > The front-end tier is accessible at http://localhost:3000/
 
-> API tier is accessible for CRUD opertions on port TCP 3001 for debugging/testing with Postman
+> API tier is accessible for CRUD operations on port TCP 3001 for debugging/testing with Postman
 
 > Database tier (Mongodb) takes requests on TCP 27017 from the API, there is also a fourth container running mongo-express for GUI operations on the database, accessible via http://localhost:8081/
 
